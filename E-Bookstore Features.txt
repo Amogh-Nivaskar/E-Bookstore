@@ -1,0 +1,51 @@
+online book store.
+
+features:
+- Reader Authentication and Autherization
+- Reader can buy books. 
+- Reader can review and rate on a book
+
+- Wishlist -> Books that the Reader might want to read in the future.		???
+- Library -> Books that the Reader has started to read or has added to library.
+- Some start part of book free to read, and then paywall per chapter.
+
+
+- Author can start new book to write
+- Author can upload new chapter to book
+
+- Book
+	id
+	name
+	author
+	size
+	number of pages
+	description
+	tags
+	rating
+	reviews
+
+- Reader
+	id
+	name
+	age
+	wishlist // 
+	library
+
+- Author
+	id
+	name
+	authored books
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
