@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T17:02:00.816Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="ytmueF-P3FUjYaBHMR-8" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T18:05:15.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="z-9868kGls8OxjUFSTDP" version="21.1.1" type="github">
   <diagram name="Page-1" id="EpTIC0iN0pevn_OFVpbt">
     <mxGraphModel dx="993" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-103" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-82" target="3I-7uhJEdG1x_DePBXYu-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-99" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-87" target="3I-7uhJEdG1x_DePBXYu-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3I-7uhJEdG1x_DePBXYu-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Reader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ age: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ library: [Book]&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addToLibrary(Book): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removeFromLibrary(Book): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ read(Book): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rate&amp;amp;review(Book): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="382.5" width="190" height="170" as="geometry" />
         </mxCell>
@@ -13,14 +19,14 @@
         <mxCell id="3I-7uhJEdG1x_DePBXYu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-5" target="3I-7uhJEdG1x_DePBXYu-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3I-7uhJEdG1x_DePBXYu-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ author: Author&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ size: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ number_of_pages: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ last_read_chapter: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tags: [string]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ content: [ Chapter ]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rating: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reviews: { Author:(int rating, string review)}&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Book&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ author: Author&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ size: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ number_of_pages: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ last_read_chapter: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ description: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tags: [string]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chapters: [ Chapter ]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rating: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reviews: { Author:(int rating, string review)}&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="440" y="350" width="270" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="3I-7uhJEdG1x_DePBXYu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-6" target="3I-7uhJEdG1x_DePBXYu-5">
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-114" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-6" target="3I-7uhJEdG1x_DePBXYu-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3I-7uhJEdG1x_DePBXYu-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Chapter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chapter_number: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ title: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ content: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="477.5" y="740" width="195" height="120" as="geometry" />
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Chapter&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ book_id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chapter_number: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ title: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ content: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="830" y="407.5" width="195" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3I-7uhJEdG1x_DePBXYu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-7" target="3I-7uhJEdG1x_DePBXYu-4">
           <mxGeometry relative="1" as="geometry" />
@@ -31,14 +37,96 @@
         <mxCell id="3I-7uhJEdG1x_DePBXYu-22" value="E-bookstore / Webnovel clone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="50" y="30" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3I-7uhJEdG1x_DePBXYu-24" value="&lt;h1&gt;API&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;POST new_user(name, age) -&amp;gt; void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# Authentication for Reader is required for the following requests.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POST add_to_library(reader_id, book_id) -&amp;gt; void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET read_book(book_id) -&amp;gt; Chapter&lt;/div&gt;&lt;div&gt;POST rate_and_review(reader_id, book_id, rating, review) -&amp;gt; void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;POST new_author(reader_id) -&amp;gt; void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# Authorization for Author is required for the following requests.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POST new_book(title, description, first_chapter_name, first_chapter_content) -&amp;gt; void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST new_chapter(book_id, chapter_title, chapter_content) -&amp;gt; void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET chapter(chapter_number) -&amp;gt; Chapter&lt;/div&gt;&lt;div&gt;GET book(book_id) -&amp;gt; Book&lt;/div&gt;&lt;div&gt;GET reviews(book_id) -&amp;gt; [ Review ]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-24" value="&lt;h1&gt;API&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;POST new_user(name, age) -&amp;gt; void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# Authentication for Reader is required for the following requests.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POST add_to_library(reader_id, book_id) -&amp;gt; void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET read_book(book_id) -&amp;gt; Chapter&lt;/div&gt;&lt;div&gt;POST rate_and_review(reader_id, book_id, rating, review) -&amp;gt; void&lt;/div&gt;&lt;div&gt;DELETE review(reader_id, review_id) -&amp;gt; void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;POST new_author(reader_id) -&amp;gt; void&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# Authorization for Author is required for the following requests.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;POST new_book(title, description, first_chapter_name, first_chapter_content) -&amp;gt; void&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;POST new_chapter(book_id, chapter_title, chapter_content) -&amp;gt; void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;GET chapter(chapter_number) -&amp;gt; Chapter&lt;/div&gt;&lt;div&gt;GET book(book_id) -&amp;gt; Book&lt;/div&gt;&lt;div&gt;GET reviews(book_id) -&amp;gt; [ Review ]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="900" width="770" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="3I-7uhJEdG1x_DePBXYu-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-35" target="3I-7uhJEdG1x_DePBXYu-5">
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-119" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-35" target="3I-7uhJEdG1x_DePBXYu-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3I-7uhJEdG1x_DePBXYu-35" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Review&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ review_id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ reader_id: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ rating: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ review: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="860" y="380" width="240" height="170" as="geometry" />
+          <mxGeometry x="232.5" y="660" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-81" value="Reader" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1605" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-82" value="id: string&lt;br&gt;name: string&lt;br&gt;age: int&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3I-7uhJEdG1x_DePBXYu-81">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-102" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="3I-7uhJEdG1x_DePBXYu-81" source="3I-7uhJEdG1x_DePBXYu-82" target="3I-7uhJEdG1x_DePBXYu-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-83" value="Database Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1330" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-86" value="Book" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1590" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-87" value="id: string&lt;br&gt;name: string&lt;br&gt;author: string author_id&lt;br&gt;size: int&lt;br&gt;number_of_pages: int&lt;br&gt;chapters: [ chapter_number: (title, content) ]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3I-7uhJEdG1x_DePBXYu-86">
+          <mxGeometry y="50" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-88" value="Libraries" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1605" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-89" value="reader_id: string&lt;br&gt;book_id: string&lt;br&gt;last_read_chapter: int" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3I-7uhJEdG1x_DePBXYu-88">
+          <mxGeometry y="50" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-100" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-89" target="3I-7uhJEdG1x_DePBXYu-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1755" as="sourcePoint" />
+            <mxPoint x="530" y="1705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-101" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-89" target="3I-7uhJEdG1x_DePBXYu-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1785" as="sourcePoint" />
+            <mxPoint x="240" y="1735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-120" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.531;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-104" target="3I-7uhJEdG1x_DePBXYu-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-121" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.454;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-104" target="3I-7uhJEdG1x_DePBXYu-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-104" value="Reviews" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="306.25" y="1870" width="172.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-105" value="reader_id&lt;br&gt;book_id&lt;br&gt;rating: int&lt;br&gt;review: string" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3I-7uhJEdG1x_DePBXYu-104">
+          <mxGeometry y="50" width="172.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-106" value="Author" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1380" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-107" value="authored_books: [ book_id ]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="3I-7uhJEdG1x_DePBXYu-106">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-108" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.996;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-107" target="3I-7uhJEdG1x_DePBXYu-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="467.5" y="1440" as="sourcePoint" />
+            <mxPoint x="517.5" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3I-7uhJEdG1x_DePBXYu-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1440" as="sourcePoint" />
+            <mxPoint x="180" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-112" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.571;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="1570" as="sourcePoint" />
+            <mxPoint x="121" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3I-7uhJEdG1x_DePBXYu-115" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=1.003;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3I-7uhJEdG1x_DePBXYu-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487.5" y="760" as="sourcePoint" />
+            <mxPoint x="538" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="473" y="760" />
+              <mxPoint x="538" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
